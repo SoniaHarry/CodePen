@@ -1,0 +1,72 @@
+/* Common nav styles*/
+.navigation-wrapper{
+    height: 50px;
+    background-color: #11122b;
+    color: white;
+    /*Flexbox container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    
+}
+
+/*Left column styles*/
+.navigation-wrapper > .left-column{
+     /*Flexbox container*/
+     display: flex;
+     align-items: center;
+ }
+.navigation-wrapper>.left-column>.logo img{
+    width: 125px;
+    height: 100%;
+}
+
+/*Middle column styles*/
+.navigation-wrapper>.middle-column{
+     /*Grid container*/
+     display: grid;
+     grid-template-columns: 1fr; 
+}
+.navigation-wrapper>.middle-column>.text-wrapper{
+     margin-left: 20px;
+     text-transform: uppercase;
+     font-family: 'Ubuntu Condensed', sans-serif;
+     font-size: 0.65em;
+     color: #fad648;
+     /*Flexbox container*/
+     display: flex;
+     justify-content: left;
+}
+.links-wrapper{
+     /*Flexbox container*/
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.links-wrapper>.nav-link{
+     width: 70px;
+     text-align: center;
+}
+.links-wrapper > .nav-link a {
+     font-family: 'Lato', sans-serif;
+     color: white;
+     text-decoration: none;
+     text-align: left;
+ }
+
+ /*Right column styles*/
+.navigation-wrapper>.right-column{
+     /*Flexbox container*/
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.navigation-wrapper>.right-column>.nav-btn{
+     width: 120px;
+     text-align: center;
+}
+.navigation-wrapper>.right-column>.icon-find{
+     color: #9b9b9d;
+     font-size: 1.5em;
+}
