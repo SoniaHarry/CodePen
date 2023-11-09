@@ -1,0 +1,13 @@
+/*Footer styles*/
+.footer{
+    height: 30%;
+    background-color: #000;
+    color: #fefefe;
+    font-family: "Ubuntu Condensed",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: -4px;
+    padding: 0px 0px 60px 0px;
+    
+}

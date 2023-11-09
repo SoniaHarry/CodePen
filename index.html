@@ -7,13 +7,13 @@
    
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     
-    <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/buttons.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/media-queries.css">
-    <link rel="stylesheet" href="styles/buttons.css">
-
+   
     <script src="https://kit.fontawesome.com/9958695687.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -41,19 +41,23 @@
                     <a href="">Collection</a>
                 </div>
                 <div class="nav-link">
-                    <a href="">Spark</a>
+                    <a class ="color-gray" href="">Spark</a>
                 </div>
                 <div class="ico-wrappers">
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
             </div>
-            
-
         </div>
         <div class="right-column">
             <div class="nav-btn">
-                <button type="submit" class="btn">Create</button>
+                <button type="submit" class="btn">
+                    Create
+                    <span class="ico-btn">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                </button>
             </div>
+            <!-- Icon Find goes here -->
             <div class="icon-find">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
@@ -69,32 +73,42 @@
     <div class="features-section">
         <div class="column-wrapper">
             <div class="column">
-                <p>CodePen is a social development environment for front-end-designers and developers.</p>
-                
-                <div class="icon">
+                <div class="top-heading">
+                    <h3>CodePen is a <span class="bold-text">social development environment</span> for front-end-designers and developers.</h3>
+                    <!-- Icon Hand goes here -->
                     <i class="fa-regular fa-hand"></i>
+                    <p>It´s the best place to build and deploy a website, show off your work, build test cases, and finf inspiration.</p>
                 </div>
-                
-                <div class="bottom-heading">
-                    It´s the best place to build and deploy a website, show off your work, build test cases, and finf inspiration.
+                <div class="btn-heading">
+                    <div class="sing-btn">
+                        <button type="submit" class="green-btn">Sing Up for Free</button>
+                    </div>
+                    <div class="learn-btn">
+                        <button type="submit" class="black-btn">Learn More</button>
+                    </div> 
                 </div>
             </div>
             <div class="column">
-                <div class="section-text">
-                    This is 
-                    <div class="section-text-code">Code Pen Projects!</div>
-                </div>
-                
+                <p> This is <span class="blue-text">Code Pen Projects</span>!</p>
                 <div class="section-img">
                     <img src="./images/sections/lmr7a8E.png" tag="CodePen Project">
                 </div>
             </div>
-        </div>
-       
+        </div> 
     </div>
-
-
-
-  
+    <div class="footer">
+        <div class="nav-btn">
+            <button type="submit" class="btn">CodePen for <span class="bold-text">TEAMS</span></button>
+        </div>
+        <div class="nav-btn">
+            <button type="submit" class="btn">CodePen for <span class="bold-text">EDUCATION</span></button>
+        </div>
+        <div class="nav-btn">
+            <button type="submit" class="btn">CodePen for <span class="bold-text">PRIVACY</span></button>
+        </div>
+        <div class="nav-btn">
+            <button type="submit" class="btn">CodePen for <span class="bold-text">WRITING</span></button>
+        </div>
+    </div>
 </body>
 </html>

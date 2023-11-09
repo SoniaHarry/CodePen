@@ -14,3 +14,33 @@
 .btn:active{
     box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
 }
+
+.btn>.ico-btn{
+    color: lightgreen;
+}
+
+.green-btn{
+    height: 40px;
+    background-color:lightgreen;
+    color: green;
+    font-size: 1em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 10px 25px;
+    border: 1px solid green;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.black-btn{
+    height: 40px;
+    background-color:black;
+    color: white;
+    font-size: 1em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}

@@ -1,7 +1,7 @@
 /* Common nav styles*/
 .navigation-wrapper{
     height: 50px;
-    background-color: #11122b;
+    background-color: #000000;
     color: white;
     /*Flexbox container*/
     display: flex;
@@ -54,6 +54,12 @@
      text-decoration: none;
      text-align: left;
  }
+ .links-wrapper > .nav-link> .color-gray {
+     font-family: 'Lato', sans-serif;
+     color: gray;
+     text-decoration: none;
+     text-align: left;
+ }
 
  /*Right column styles*/
 .navigation-wrapper>.right-column{
@@ -69,4 +75,6 @@
 .navigation-wrapper>.right-column>.icon-find{
      color: #9b9b9d;
      font-size: 1.5em;
+     padding: 10px 25px;
+    
 }

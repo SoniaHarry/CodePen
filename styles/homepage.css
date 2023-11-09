@@ -1,14 +1,43 @@
+/* Features section styles */
 .features-section{
-    background-color: #353537;
-    color: gray;
+    /* background-color: #353537; */
+    background: linear-gradient(275deg, #101114, #2d2f37);
+    color: #fefefe;
     font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 30px 30px;
+    margin-top: -4px;
 }
 .features-section>.column-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
 }
+.features-section>.column-wrapper>.column>.top-heading{
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
 .features-section>.column-wrapper>.column>.section-img img {
-    height: 400px;
+    height: 350px;
+}
+
+.features-section>.column-wrapper>.column>.btn-heading{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.features-section>.column-wrapper>.column>.btn-heading>.sign-btn{
+   
+}
+.features-section>.column-wrapper>.column>.btn-heading>.learn-btn{
+    padding: 0px 10px;
+}
+
+/* Styles Fonts */
+.bold-text{
+    font-weight: bold;
+}
+.blue-text{
+    color: #76daff;
 }
