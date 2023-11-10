@@ -38,6 +38,10 @@
      display: flex;
      justify-content: left;
 }
+.navigation-wrapper>.middle-column>.links-wrapper>.icon-wrapper{
+     font-size: 0.7em;
+}
+
 .links-wrapper{
      /*Flexbox container*/
      display: flex;
@@ -53,12 +57,14 @@
      color: white;
      text-decoration: none;
      text-align: left;
+     font-weight: bold;
  }
- .links-wrapper > .nav-link> .color-gray {
-     font-family: 'Lato', sans-serif;
+ .links-wrapper > .nav-link> .spark {
+     /* font-family: 'Lato', sans-serif; */
      color: gray;
-     text-decoration: none;
-     text-align: left;
+     padding: 0px 20px;
+     /* text-decoration: none; */
+     /* text-align: left; */
  }
 
  /*Right column styles*/
@@ -70,11 +76,11 @@
 }
 .navigation-wrapper>.right-column>.nav-btn{
      width: 120px;
-     text-align: center;
+     text-align: right;
 }
 .navigation-wrapper>.right-column>.icon-find{
      color: #9b9b9d;
-     font-size: 1.5em;
-     padding: 10px 25px;
+     font-size: 1.6em;
+     padding: 0px 0px 0px 20px;
     
 }

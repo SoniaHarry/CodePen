@@ -5,16 +5,18 @@
     color: #fefefe;
     font-family: 'Lato', sans-serif;
     font-size: 1em;
-    padding: 30px 30px;
+    padding: 30px 30px 0px 40px;
     margin-top: -4px;
 }
 .features-section>.column-wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 150px;
 }
 .features-section>.column-wrapper>.column>.top-heading{
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: lighter;
+    color: #9b9b9d;
     line-height: 1.5;
 }
 
@@ -27,14 +29,11 @@
     justify-content: left;
     align-items: center;
 }
-.features-section>.column-wrapper>.column>.btn-heading>.sign-btn{
-   
-}
 .features-section>.column-wrapper>.column>.btn-heading>.learn-btn{
     padding: 0px 10px;
 }
 
-/* Styles Fonts */
+/* Styles Text */
 .bold-text{
     font-weight: bold;
 }
