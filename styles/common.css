@@ -1,6 +1,13 @@
+/*Styles Text*/
 h3{
     font-size: 1.3em;
     font-weight: lighter;
     color: #d4d4d9;
     line-height: 1.2;
+}
+.bold-text{
+    font-weight: bold;
+}
+.blue-text{
+    color: #76daff;
 }

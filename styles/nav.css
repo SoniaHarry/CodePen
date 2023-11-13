@@ -1,14 +1,13 @@
 /* Common nav styles*/
 .navigation-wrapper{
-    height: 50px;
+    height: 40px;
     background-color: #000000;
     color: white;
+    padding: 10px 10px;  
     /*Flexbox container*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
-    
 }
 
 /*Left column styles*/
@@ -20,6 +19,7 @@
 .navigation-wrapper>.left-column>.logo img{
     width: 125px;
     height: 100%;
+    padding: 10px 20px 10px 10px;
 }
 
 /*Middle column styles*/
@@ -29,11 +29,11 @@
      grid-template-columns: 1fr; 
 }
 .navigation-wrapper>.middle-column>.text-wrapper{
-     margin-left: 20px;
+     margin-left: 10px;
      text-transform: uppercase;
      font-family: 'Ubuntu Condensed', sans-serif;
-     font-size: 0.65em;
-     color: #fad648;
+     font-size: 0.75em;
+     color: #d8c472;
      /*Flexbox container*/
      display: flex;
      justify-content: left;
@@ -49,20 +49,21 @@
      align-items: center;
 }
 .links-wrapper>.nav-link{
-     width: 70px;
+     padding: 0px 0px 0px 10px;
      text-align: center;
 }
 .links-wrapper > .nav-link a {
-     font-family: 'Lato', sans-serif;
+     font-family: 'Ubuntu Condensed', sans-serif;
+     font-weight: bold;
+     font-size: 0.90em;
      color: white;
      text-decoration: none;
      text-align: left;
-     font-weight: bold;
  }
  .links-wrapper > .nav-link> .spark {
-     /* font-family: 'Lato', sans-serif; */
+     font-family: 'Lato', sans-serif;
      color: gray;
-     padding: 0px 20px;
+     padding: 0px 10px;
      /* text-decoration: none; */
      /* text-align: left; */
  }
@@ -75,7 +76,7 @@
      align-items: center;
 }
 .navigation-wrapper>.right-column>.nav-btn{
-     width: 120px;
+     width: 100px;
      text-align: right;
 }
 .navigation-wrapper>.right-column>.icon-find{
