@@ -1,12 +1,14 @@
-/*Footer styles*/
+/* Footer styles */
 .footer{
-    height: 30%;
     background-color: #000;
     color: #fefefe;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
     align-items: top;
     margin-top: -4px;
     padding: 0px 0px 60px 0px;
-    
+}
+
+.footer>.square-btn-wrapper{
+    /* Grid container */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }

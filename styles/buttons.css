@@ -1,3 +1,4 @@
+/* Buttons styles */
 .btn{
     height: 40px;
     background-color:#36383f;
@@ -8,17 +9,12 @@
     border: 1px solid #353537;
     border-radius: 4px;
     outline: none;
-    transition: 0.3s;
 }
-
-.btn:active{
-    box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
-}
-
 .btn>.ico-btn{
     color: lightgreen;
 }
 
+/* Types of buttons styles */
 .square-btn{
     height: 50px;
     width: 100%;
@@ -29,31 +25,26 @@
     padding: 10px 25px;
     border: 1px solid gray;
     outline: none;
-    transition: 0.3s;
 }
-
 .green-btn{
-    height: 60px;
+    height: 50px;
     background-color:#47cf73;
     color: black;
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-family: 'Lato', sans-serif; 
     padding: 10px 15px;
     border: 1px solid #47cf73;
     border-radius: 4px;
     outline: none;
-    transition: 0.3s;
 }
-
 .black-btn{
-    height: 60px;
+    height: 50px;
     background-color:black;
     color: white;
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-family: 'Lato', sans-serif;
     padding: 10px 15px;
     border: 1px solid black;
     border-radius: 4px;
     outline: none;
-    transition: 0.3s;
 }

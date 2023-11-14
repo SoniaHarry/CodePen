@@ -1,9 +1,10 @@
-/*Styles Text*/
+/* Text styles */
 h3{
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: lighter;
     color: #d4d4d9;
-    line-height: 1.2;
+    line-height: 1.1;
+    margin-bottom: 0px;
 }
 .bold-text{
     font-weight: bold;

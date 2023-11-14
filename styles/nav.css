@@ -1,18 +1,18 @@
-/* Common nav styles*/
+/* Common nav styles */
 .navigation-wrapper{
     height: 40px;
     background-color: #000000;
     color: white;
     padding: 10px 10px;  
-    /*Flexbox container*/
+    /* Flexbox container */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/*Left column styles*/
+/* Left column styles */
 .navigation-wrapper > .left-column{
-     /*Flexbox container*/
+     /* Flexbox container */
      display: flex;
      align-items: center;
  }
@@ -22,9 +22,9 @@
     padding: 10px 20px 10px 10px;
 }
 
-/*Middle column styles*/
+/* Middle column styles */
 .navigation-wrapper>.middle-column{
-     /*Grid container*/
+     /* Grid container */
      display: grid;
      grid-template-columns: 1fr; 
 }
@@ -34,16 +34,15 @@
      font-family: 'Ubuntu Condensed', sans-serif;
      font-size: 0.75em;
      color: #d8c472;
-     /*Flexbox container*/
+     /* Flexbox container */
      display: flex;
      justify-content: left;
 }
 .navigation-wrapper>.middle-column>.links-wrapper>.icon-wrapper{
      font-size: 0.7em;
 }
-
 .links-wrapper{
-     /*Flexbox container*/
+     /* Flexbox container */
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -68,18 +67,18 @@
      /* text-align: left; */
  }
 
- /*Right column styles*/
-.navigation-wrapper>.right-column{
-     /*Flexbox container*/
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
+ /* Right column styles */
+.btn-wrapper{
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
 }
-.navigation-wrapper>.right-column>.nav-btn{
+.btn-wrapper>.nav-btn{
      width: 100px;
      text-align: right;
 }
-.navigation-wrapper>.right-column>.icon-find{
+.btn-wrapper>.icon-find{
      color: #9b9b9d;
      font-size: 1.6em;
      padding: 0px 0px 0px 20px;
