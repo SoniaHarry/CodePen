@@ -32,15 +32,13 @@
      margin-left: 10px;
      text-transform: uppercase;
      font-family: 'Ubuntu Condensed', sans-serif;
-     font-size: 0.75em;
+     font-size: 0.70em;
      color: #d8c472;
      /* Flexbox container */
      display: flex;
      justify-content: left;
 }
-.navigation-wrapper>.middle-column>.links-wrapper>.icon-wrapper{
-     font-size: 0.7em;
-}
+
 .links-wrapper{
      /* Flexbox container */
      display: flex;
@@ -66,21 +64,28 @@
      /* text-decoration: none; */
      /* text-align: left; */
  }
+ .links-wrapper>.spark.icon-wrapper{
+     font-size: 0.7em;
+}
 
- /* Right column styles */
+/* Right column styles */
+.navigation-wrapper>.right-column{
+     flex:30%;
+     font-size: 0.90em;
+}
 .btn-wrapper{
     /* Flexbox container */
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;  
 }
 .btn-wrapper>.nav-btn{
-     width: 100px;
      text-align: right;
+     padding: 0px 0px 0px 10px;
 }
 .btn-wrapper>.icon-find{
      color: #9b9b9d;
      font-size: 1.6em;
-     padding: 0px 0px 0px 20px;
+     padding: 0px 10px 0px 20px;
     
 }
