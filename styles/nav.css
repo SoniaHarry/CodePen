@@ -16,6 +16,7 @@
      display: flex;
      align-items: center;
  }
+
 .navigation-wrapper>.left-column>.logo img{
     width: 125px;
     height: 100%;
@@ -28,6 +29,7 @@
      display: grid;
      grid-template-columns: 1fr; 
 }
+
 .navigation-wrapper>.middle-column>.text-wrapper{
      margin-left: 10px;
      text-transform: uppercase;
@@ -45,10 +47,12 @@
      justify-content: space-between;
      align-items: center;
 }
+
 .links-wrapper>.nav-link{
      padding: 0px 0px 0px 10px;
      text-align: center;
 }
+
 .links-wrapper > .nav-link a {
      font-family: 'Ubuntu Condensed', sans-serif;
      font-weight: bold;
@@ -57,14 +61,14 @@
      text-decoration: none;
      text-align: left;
  }
+
  .links-wrapper > .nav-link> .spark {
      font-family: 'Lato', sans-serif;
      color: gray;
      padding: 0px 10px;
-     /* text-decoration: none; */
-     /* text-align: left; */
  }
- .links-wrapper>.spark.icon-wrapper{
+
+ .links-wrapper>.spark.icon-link{
      font-size: 0.7em;
 }
 
@@ -73,16 +77,19 @@
      flex:30%;
      font-size: 0.90em;
 }
+
 .btn-wrapper{
     /* Flexbox container */
     display: flex;
     justify-content: right;
     align-items: center;  
 }
+
 .btn-wrapper>.nav-btn{
      text-align: right;
      padding: 0px 0px 0px 10px;
 }
+
 .btn-wrapper>.icon-find{
      color: #9b9b9d;
      font-size: 1.6em;

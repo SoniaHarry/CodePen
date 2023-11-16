@@ -1,4 +1,8 @@
-/* Text styles */
+/* Common styles */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 h3{
     font-size: 1.2em;
     font-weight: lighter;
@@ -6,9 +10,15 @@ h3{
     line-height: 1.1;
     margin-bottom: 0px;
 }
-.bold-text{
+
+.bold-text, .special-text{
     font-weight: bold;
 }
+
 .blue-text{
     color: #76daff;
+}
+
+.special-text{
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
